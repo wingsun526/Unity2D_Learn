@@ -227,8 +227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9825360f8da59d44aa20e13522f7dbf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max: 0
-  min: 0
+  max: 1000
+  min: 1
+  guessText: {fileID: 1209973601}
 --- !u!4 &136820480
 Transform:
   m_ObjectHideFlags: 0
@@ -432,9 +433,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1673519080}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 136820479}
+        m_TargetAssemblyTypeName: NumberWizard, Assembly-CSharp
+        m_MethodName: OnPressLower
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -518,7 +519,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.023529412, g: 0.1254902, b: 0.28235295, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -756,7 +757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Success
+  m_text: correct
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9f9cc003088acf54088457ca71ba5b27, type: 2}
   m_sharedMaterial: {fileID: 4702175278278186036, guid: 9f9cc003088acf54088457ca71ba5b27, type: 2}
@@ -1436,9 +1437,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1673519080}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 136820479}
+        m_TargetAssemblyTypeName: NumberWizard, Assembly-CSharp
+        m_MethodName: OnPressHigher
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
