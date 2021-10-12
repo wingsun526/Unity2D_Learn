@@ -41,10 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DustTrail.cs" />
      <Compile Include="Assets\Scripts\CrashDetector.cs" />
      <Compile Include="Assets\Scripts\FinishLine.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\DustTrail.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
