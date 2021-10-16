@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637699224584217612
-    m_Hash: 2956403606
+      ticks: 637700085723162009
+    m_Hash: 2628685134
   m_LockFileStatus:
     m_FilePath: C:/Users/Marco/Documents/Repos/Unity2D/Unity2D_Learn/TileVania/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637699224683147656
-    m_Hash: 3105384048
+      ticks: 637700085723202030
+    m_Hash: 2442421154
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -625,12 +625,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.0
+- packageId: com.unity.2d.tilemap.extras@2.2.1
   testable: 0
   isDirectDependency: 1
-  version: 2.2.0
+  version: 2.2.1
   source: 1
-  resolvedPath: C:\Users\Marco\Documents\Repos\Unity2D\Unity2D_Learn\TileVania\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.0
+  resolvedPath: C:\Users\Marco\Documents\Repos\Unity2D\Unity2D_Learn\TileVania\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.1
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -715,13 +715,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637632301510000000
+  datePublishedTicks: 637690415140000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/2d-extras.git
-    revision: 9e95426d54e44a24dacc109491c976906c207fd9
+    url: https://github.com/Unity-Technologies/2d-extras.git
+    revision: ab6199c75d7737ad61837747f178a999273bcf88
     path: 
   unityLifecycle:
     version: 2.2.0
