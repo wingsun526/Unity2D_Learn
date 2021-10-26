@@ -345,9 +345,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/CoinPickup.cs"
 "Assets/Scripts/EnemyMovement.cs"
+"Assets/Scripts/GameSession.cs"
 "Assets/Scripts/LevelExit.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/ScenePersist.cs"
 -langversion:8.0
 
 /deterministic
